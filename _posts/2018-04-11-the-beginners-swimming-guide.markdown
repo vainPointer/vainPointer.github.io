@@ -3,7 +3,7 @@ layout: post
 title:  "The beginner's swimming guide"
 subtitle: "游泳学习之道"
 date:   2018-04-11 13:57:23 +0800
-categories: [Hobby]
+categories: [hobby]
 ---
 
 ![](/images/swimming.jpg)
