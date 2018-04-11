@@ -26,6 +26,30 @@ img {
     max-width: 100%;
 }
 
+table {
+    margin:15px 0
+}
+
+table th {
+    background-color: #C3E7FA;
+    color: #000000
+}
+
+table th,td {
+    font-size: 0.95em;
+    padding: 4px;
+    border:  1px solid #dcf1fc;
+    border-collapse: collapse
+}
+
+table tr:nth-child(odd){
+    background-color: #ebf7fd;
+}
+
+table tr:nth-child(even){
+    background-color: #fdfdfd;
+}
+
 blockquote {
     letter-spacing: 3px;
     margin:0px;
