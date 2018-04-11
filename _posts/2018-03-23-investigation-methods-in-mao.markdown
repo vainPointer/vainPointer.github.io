@@ -2,7 +2,7 @@
 layout: post
 title:  "Investigation methods in Mao"
 subtitle: "《毛选（一）》中的调查研究方法"
-date:   2018-03-29 13:12:21 +0800
+date:   2018-03-23 17:12:21 +0800
 categories: [history]
 ---
 
