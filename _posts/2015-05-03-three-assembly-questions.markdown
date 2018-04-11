@@ -73,7 +73,7 @@ const在汇编后和普通变量的定义是一模一样的。const只是由编�
 
 查资料时发现还有\_\_fastcall调用。
 
-调用约定(calling convention)决定一下内容：
+调用约定(calling convention)决定以下内容：
 
 1. 函数参数的压栈顺序
 
