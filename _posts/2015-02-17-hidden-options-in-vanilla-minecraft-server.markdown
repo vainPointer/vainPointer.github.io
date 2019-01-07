@@ -3,7 +3,7 @@ layout: post
 title:  "Hidden options in vanilla minecraft server"
 subtitle: "自动保存，自动备份，出错重启"
 date:   2015-02-17 19:34:01 +0800
-categories: [geek]
+categories: [hobby]
 ---
 
 Vanilla 是 MineCraft 原版服务器的名称。事实上，原版服务器就可以配置好自动保存，自动备份，出错重启等很有用的功能，只不过少有人知。比如自动备份，只需在 server.properties 文件中添加如下代码：
