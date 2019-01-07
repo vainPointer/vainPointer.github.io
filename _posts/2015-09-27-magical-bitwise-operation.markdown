@@ -3,7 +3,7 @@ layout: post
 title:  "Magical bitwise operation"
 subtitle: "神奇的位操作"
 date:   2015-09-27 15:12:32 +0800
-categories: [geekin]
+categories: [geek]
 ---
 
 1.判断奇偶

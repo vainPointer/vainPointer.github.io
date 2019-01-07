@@ -3,7 +3,7 @@ layout: post
 title:  "Network model of virtual machine"
 subtitle: "虚拟机网络模式"
 date:   2015-04-24 15:12:32 +0800
-categories: [geekin]
+categories: [geek]
 ---
 
 对于虚拟机桥接、Host-Only和NAT的网络模式认识一直比较模糊，写篇文章总结一下。

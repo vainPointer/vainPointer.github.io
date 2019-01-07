@@ -1,11 +1,11 @@
 - slug: math
   name: Math
 
-- slug: geekin
-  name: Geekin
+- slug: geek
+  name: Geek
 
-- slug: history
-  name: History
+- slug: read
+  name: Read
 
 - slug: hobby
   name: Hobby

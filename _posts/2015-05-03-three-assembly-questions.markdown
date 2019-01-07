@@ -3,7 +3,7 @@ layout: post
 title:  "Three assembly questions"
 subtitle: "三个汇编语言问题"
 date:   2015-05-03 15:12:32 +0800
-categories: [geekin]
+categories: [geek]
 ---
 
 以下是我遇到的几个想搞清楚的问题，当时只是把问题记录了下来，再抽时间动手搞清楚。

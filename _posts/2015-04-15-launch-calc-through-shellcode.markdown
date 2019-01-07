@@ -3,7 +3,7 @@ layout: post
 title:  "Launch calc through shellcode"
 subtitle: "弹出计算器程序的 shellcode"
 date:   2015-04-15 15:25:23 +0800
-categories: [geekin]
+categories: [geek]
 ---
 
 简单地讲，ShellCode就是一段01二进制的机器码，试图利用软件中的漏洞完成自己想做的事情。ShellCode的编写需要考虑和顾及的东西很多，这里先写一个适合新手的范例。

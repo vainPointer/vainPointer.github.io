@@ -3,7 +3,7 @@ layout: post
 title:  "Josephus Cycle: an array method"
 subtitle: "犹太历史学家 Josephus 的故事"
 date:   2013-07-11 15:12:32 +0800
-categories: [geekin]
+categories: [geek]
 ---
 
 据说著名犹太历史学家 Josephus 有过以下的故事：
