@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hidden options in vanilla minecraft server"
-subtitle: "自动保存，自动备份，出错重启"
+subtitle: "我的世界原版服务器中的隐藏配置"
 date:   2015-02-17 19:34:01 +0800
 categories: [hobby]
 ---
