@@ -38,10 +38,10 @@ func analytical_read() {
     keywords, tags = classify_topic();
     summary = explain_whole_book_using_simplest_abstract();
     association = find_correlation_between_primary_parts();
-    theme_questions = determine_what_question_author_want_solve_();
+    theme_questions = determine_what_question_author_want_solve();
     
     /* 诠释性: 这本书的详细内容是什么? 作者是如何写出来的? */
-    explain_keywords(keywords);
+    explain_concepts(concepts);
     gist = catch_gist_from_summay(summary);
     find_supports_to_enrich_association_diagram(association);
     determine_questiones_solve_or_not(theme_questions);
