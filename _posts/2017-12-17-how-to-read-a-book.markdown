@@ -6,7 +6,7 @@ date:   2017-12-17 15:38:59 +0800
 categories: [read]
 ---
 
-《如何阅读一本书》是由美国哲学家莫蒂默·杰尔姆·阿德勒于1940年所著，并于1972年和查尔斯·范多伦重新修订。它将阅读分做四个层次基础阅读、检视阅读、分析阅读、主题阅读。我试着用代码来解释如何阅读一本书。
+《如何阅读一本书》由美国哲学家莫蒂默·杰尔姆·阿德勒于1940年所著，并于1972年和查尔斯·范多伦重新修订。它将阅读分做四个层次基础阅读、检视阅读、分析阅读、主题阅读。我试着用代码来总结如何阅读一本书。
 
 
 ```c
@@ -24,7 +24,7 @@ func inspectional_read() {
     for chapter in chosen_chapters:
         chosen_sentences = read_chapter();
         for sentence in chosen_sentences:
-            basic_read(sentece);
+            basic_read(sentece, &is_valued);
             
     if (is_valued > threshold)
         return 1;
@@ -35,7 +35,7 @@ func inspectional_read() {
 /* 分析阅读 */
 func analytical_read() {
     /* 架构性: 找出一本书在谈写什么 */
-    keywords = tags = classify_topic();
+    keywords, tags = classify_topic();
     summary = explain_whole_book_using_simplest_abstract();
     association = find_correlation_between_primary_parts();
     theme_questions = determine_what_question_author_want_solve_();
@@ -48,20 +48,20 @@ func analytical_read() {
     
     /* 评论性: 这是真实的、有道理的吗? 这本书跟你有什么关系 */
     set(comment, UN_COMPETITIVE)        // 不要争强好胜
-    comment = [opinion for opinion in views ...
+    comment = [opinion for opinions in views ...
     ... if (opinion in real_knowledge)] // 区分真正的知识和个人观点
     // 批评的标准: 证明作者知识不足或错误，或不合逻辑，或分析与理由不充分 */
 }
 
 /* 主题阅读: 讨论某个特定的主题 */
 func topic_read() {
-    /* init phase */
+    /* initial phase */
     book_list = chose_by_book_title();
     book_list = inspectional_read(book_list);
     
-    /* run phase */
+    /* running phase */
     topic_chapters = analytical_read(book_list);
-    define_keywords(keywords);      // 与作者对概念定义达成一致
+    define_concepts(concepts);      // 与作者对概念定义达成一致
     new_gist = determine_nonaligned_gist(gist); // 主旨
     questions = list_questions_in_gist(gist);   // 核心问题
     important_questions = determine_important(questions);
