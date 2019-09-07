@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Gflags: a simple guide"
+subtitle: "设置高级调试信息"
+date:   2019-08-08 19:06:51 +0800
+categories: [geek]
+---
+
+```
+gflags.exe -i program.exe [+/-]FLAGS
+```
+
+### sls: Show loader snaps
+
+Windows 的 dll 加载器 ldr 核心代码在 ntdll.dll 中，```LdrLoadDll()``` 函数就是实现具体 dll 加载过程的入口函数。
+
+ntdll.dll 中有一个未公开的 ShowSnap 全局变量，不同的 bit 位标识着不同的debug 功能支持。当 ShowSnap 的最低位为 1 时，就可以实现打印 ldr 的详细调试信息。
+
+ldr 打印调试信息通过调用 ntdll.dll 中的 ```RtlRaiseException()``` 以异常信息来实现。在异常信息中设置异常代码为 ```DBG_PRINTEXCEPTION_C```，然后调试器就能捕获该异常并显示 ldr 抛出的调试信息。
+
+### hpa: PageHeap
+
+#### 完全页堆
+当分配一块内存时，通过调整内存块的分配位置，使其结尾恰好与系统分页边界对齐，然后在边界处再多分配一个不可访问的页作为保护区域。这样，一旦出现内存读/写越界时，进程就会Crash，从而帮助及时检查内存越界。
+
+因为每次分配的内存都要以这种形式布局，尤其对于小片的内存分配，即使分配一个字节，也要分配一个内存页，和一个保留的虚拟内存页（注意在目前的实现中，这个用作边界保护区域的页从来不会被提交）。这就需要大量的内存，到底一个进程需要多少内存，很难估算，因此在使用 Page Heap 前，至少保证你的机器至少设置了 1G 以上虚拟内存。
+
+#### 正常页堆
+正常页堆原理与 CRT 调试内存分配函数类似，通过分配少量的填充信息，在释放内存块时检查填充区域。来检测内存是否被损坏，此方法的优点是极大的减少了内存耗用量。缺点是只能在释放块时检测，不太好跟踪出错的代码位置。
+
+#### 一些特殊选项
+
+##### /unaligned
+这个选项只能用于完全页堆。当我们从普通堆管理器分配一块内存时，内存总是 8 字节对齐的，页堆默认情况下也会使用这个对齐规则，但是这会导致分配的内存块的结尾不能跟页边界精确对齐，可能存在 0-7 个字节的间隙，显然，对位于间隙范围内的访问是不会被立即发现。更准确的说，读操作将永远不能被发现，写操作则要等到内存块释放时校验间隙空间内的填充信息时才发现。/unaligned 用于修正这个缺陷，它指定页堆管理器不必遵守 8 字节对齐规则，保证内存块尾部精确对齐页边界。
+
+需要注意的是，一些程序启用这个选项可能出现异常，例如IE和QQ就不支持。
+
+##### /backwards
+这个选项只能用于完全页堆。这个选项使得分配的内存块头部与页边界对齐（而不是尾部与边界对齐），通过这个选项来检查头部的访问越界。
+
+##### /debug
+指定一启动进程即 Attach 到调试器，对于那些不能自动生成 dump 的程序，是比较有用的选项。
+
+#### 页堆能处理的错误类型
+
+错误类型 | 正常页堆 | 完整页堆
+:----|:----|:----
+堆句柄无效 | 立即发现 | 立即发现 
+堆内存块指针无效 | 立即发现 | 立即发现
+多线程访问堆不同步 | 立即发现 | 立即发现
+realloc返回相同地址 | 90% 释放后发现 | 90% 立即发现
+内存块重复释放 | 90% 立即发现 | 90% 立即发现
+访问已释放的内存块 | 90% 释放后发现 | 90% 立即发现
+访问块结尾之后的内容 | 在释放后发现 | 立即发现
+访问块开始之前的内容 | 在释放后发现 | 立即发现
+
+### ust: User-mode Stack Trace Database
+用户态栈回溯顾名思义就是在函数调用时保存调用栈的数据库，UMDH 程序用来存储它的数据：
+
+```
+umdh -pn:Program.exe -f:before.txt
+// do something
+umdh -pn:Program.exe -f:after.txt
+```
+
+### Further Reading:
+
+  - [微软在线文档](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/gflags)
+  - [gflags Examples](http://systemmanager.ru/windows_support_tools.en/gflags_examples.htm)
+  - [zcc1414's cnblogs](https://www.cnblogs.com/zcc1414/p/3982334.html)
+  - [windbg内存定位](https://www.zybuluo.com/lupnfer/note/822014)
