@@ -2,7 +2,7 @@
 layout: post
 title:  "Guns, germs, and steel"
 subtitle: "枪炮、病菌和钢铁"
-date:   2019-09-10 19:06:51 +0800
+date:   2019-09-10 14:46:51 +0800
 categories: [read]
 ---
 
