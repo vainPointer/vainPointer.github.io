@@ -5,6 +5,30 @@ subtitle: I'm just an ordinary person.
 permalink: /about/
 ---
 
+# 网络书签
+
+| 工具 | 词典 | 找书 | 写作 | 数学 | 巴利 | marklet | OJ |  |
+|----|----|----|----|----|----|----|----|----|
+| [syscalls](http://syscalls.kernelgrok.com/)| [象形字典](http://www.vividict.com/Default.aspx)| [bookfinder](https://www.bookfinder.com/)| [Overleaf](https://www.overleaf.com/learn)| [Wolfram](http://mathworld.wolfram.com/)| [觉悟之路](http://dhamma.sutta.org/index2.htm)| [paste](https://paste.ubuntu.com/)| [ProjectEuler](https://projecteuler.net/about)|  |
+| [任意门](http://terest.top/gate/)| [字源](http://hanziyuan.net/)| [libgen](http://gen.lib.rus.ec/)| [Detexify](http://detexify.kirelabs.org/classify.html)| [OEIS](http://oeis.org/)| [Insight](https://www.accesstoinsight.org/)| [send](https://send.firefox.com/)| [51nod](https://www.51nod.com/focus.html)| | 
+| [全历史](https://www.allhistory.com/)| [搜詞尋字](http://words.sinica.edu.tw/sou/sou.html)| [libgen](https://libgen.is/)| [TeX公式](https://zh.numberempire.com/latexequationeditor.php)| [MathSciNet](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)| [Tipiṭaka](https://www.tipitaka.org/)| [Jesse's](https://www.squarefree.com/bookmarklets/)| [HackerRank](https://www.hackerrank.com/)| | 
+| [百度wp](https://www.baiduwp.com/)| [易笔字](http://www.yibizi.com/)| [booksee](http://en.booksee.org/)| [netspeak](http://www.netspeak.org/)| [LMFDB](http://www.lmfdb.org/)| [Tipiṭaka](https://epalitipitaka.appspot.com/canon)| [TinyURL!](javascript:void%28location.href='https://tinyurl.com/create.php?url='+encodeURIComponent%28location.href%29%29)| [Brilliant](https://brilliant.org/courses/#recent)| | 
+| [10minEmail](https://10minutemail.com/)| [民族语言](http://www.mzywfy.org.cn/)| [ITebooks](https://it-ebooks.info/)| [linggle](http://linggle.com/)| [数学小程序](http://zh.numberempire.com/primenumbers.php)| [大毘盧寺](http://abtemple.org/index.php)| [SimilarSite](javascript:location.href='https://www.similarsitesearch.com/search/?URL='+encodeURIComponent%28document.location.href%29+'&src=bmt';)| [pwnable.kr](http://pwnable.kr/play.php)| | 
+| [Sci-Hub](http://sci-hub.tw/)| [同义词](http://www.ximizi.com/Tongyici_Cidian.php)| [bookspot](http://www.freebookspot.es/)| [格律检测](http://www.52shici.com/gl.php)| [PhET](https://phet.colorado.edu/_m/zh_CN/)| [佛學圖書館](http://buddhism.lib.ntu.edu.tw/DLMBS/index.jsp)| [Archive](javascript:location.href='https://web.archive.org/save/'+location.href.split%28'?'%29[0])| [pwnable.tw](https://pwnable.tw/)| | 
+| [PyCheat](https://www.datacamp.com/community/data-science-cheatsheets)| [Etymology](http://www.etymonline.com/)| [ebookee](https://ebookee.org/)| [JSTOR](https://www.jstor.org/)| | [漢文大藏經](http://tripitaka.cbeta.org/mobile/index.php?index=N)| [arch.today](javascript:void%28open%28'http://archive.today/?run=1&url='+encodeURIComponent%28document.location%29%29%29)| [reversing.kr](http://reversing.kr/)| | 
+| [CScourse](https://teachyourselfcs.com/)| [NiftyWord](https://www.niftyword.com/)| [PDFGrab](http://pdfgrab.net/)| [dblp](https://dblp.uni-trier.de/)| | | | [hackthebox](https://www.hackthebox.eu/)| | 
+| | [Merriam](https://www.merriam-webster.com/)| [Gutenberg](https://www.gutenberg.org/)| [letpub](http://www.letpub.com.cn/index.php?page=journalapp)| | | | [wechall](https://www.wechall.net/)| | 
+| | [Dictionary](http://www.dictionary.com/)| [CSE](https://cse.google.com/cse?cx=001639227550064093264:dznewka3cca)| [SJR](https://www.scimagojr.com/index.php)| | | | [RosettaCode](http://rosettacode.org/wiki/Rosetta_Code)| | 
+| | [Oxford](https://www.oxfordlearnersdictionaries.com/)| [鸠摩搜书](https://www.jiumodiary.com/?tdsourcetag=s_pctim_aiomsg)| | | | | | | 
+| | [Longman](https://www.ldoceonline.com/)| [wheremylife](http://wheremylife.cn/home.html)| | | | | | | 
+| | [FreeDict](http://www.freedictionary.com/)| [skebooks](https://www.skebooks.com/)| | | | | | |
+| | [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page)| [51nazhun](https://kindle.51nazhun.pub/)| | | | | | |
+| | [Latin](http://archives.nd.edu/words.html)| [胖虎书屋](http://panghubook.cn/)| | | | | | | 
+| | [Glossa](http://athirdway.com/glossa/)| | | | | | | | 
+| | | | | | | | | | 
+
+
+
 # 软件集锦
 ## 代码
   - Source Insight
@@ -13,6 +37,7 @@ permalink: /about/
   - [wing](https://wingware.com/downloads/wing-personal) - Python IDE
   - [atom](https://atom.io/) - Github Editor
   - [看雪工具](https://tools.pediy.com/)
+  - [PyQuil](https://github.com/rigetti/pyquil) - Python 量子计算库
 
 ## 文档
   - [PDF Xchange](https://pdf-xchange.eu/)
@@ -32,7 +57,7 @@ permalink: /about/
 
 ## Linux
   - gdebi - 自动解决依赖的 deb 安装器
-  - zathura | evince - pdf 阅读器
+  - zathura \| evince - pdf 阅读器
   - artha - 查字典
   - irssi - IRC 工具
   - remmina - 远程桌面
@@ -45,3 +70,10 @@ permalink: /about/
   - reeder - RSS 阅读器
   - textual - IRC 工具
   - quiver - 笔记本
+
+
+# 警句
+  - 死生有命，富贵在天，但行好事，莫问前程。
+  - Knowing is not enough; We must apple. Willing is not enough; We must do。
+  - 纸上得来终觉浅，绝知此事要躬行。
+
