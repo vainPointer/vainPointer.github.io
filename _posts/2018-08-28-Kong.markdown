@@ -3,7 +3,7 @@ layout: post
 title:  "Kong"
 subtitle: "空卦"
 date:   2018-08-28 12:07:05 +0800
-categories: [read]
+categories: [hobby]
 ---
 
 《易》中有“大有卦”，却没有“空卦”。而“空”却是大乘佛教中经常提起的一个字，周易中没有“空卦”，着实可惜。本人无聊，为《易》补上一个第 0 卦，空卦。
