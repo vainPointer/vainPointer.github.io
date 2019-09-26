@@ -43,6 +43,11 @@ permalink: /about/
   - [Archive](javascript:location.href='https://web.archive.org/save/'+location.href.split%28'?'%29[0])                                             
   - [Archive.today](javascript:void%28open%28'http://archive.today/?run=1&url='+encodeURIComponent%28document.location%29%29%29)                          
 
+# 模板
+  - [landslide](/download/templates/landslide.zip) - 用 markdown 做 PPT
+  - [XeTeX](/download/templates/XeTeX.zip) - 几个 XeTeX 模板，包括 notes、homework、article
+  - [retext](/download/templates/retext.zip) - retext 中使用 MathJax 的方法以及两个 css
+
 # 软件集锦
 ## 代码
   - Source Insight
