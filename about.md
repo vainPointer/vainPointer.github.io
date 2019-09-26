@@ -31,12 +31,8 @@ permalink: /about/
 |                                                      |                                               |                                                      |                                                                       |                                                                 |                                                                                    |                                                                    |                                                            |
 |                                                      |                                               |                                                      |                                                                       |                                                                 |                                                                                    |                                                                    |                                                            |
 
-## Others
 
   - [Project Tuva](http://research.microsoft.com/apps/tools/tuva) - 微软建立的费曼物理学讲座视频网站（Mirror: [Bilibi](https://www.bilibili.com/video/av51119464/)）
-
-## Bookmarklet
-
   - [Jesse's bookmarklet site](https://www.squarefree.com/bookmarklets/)                    
   - [TinyURL!](javascript:void%28location.href='https://tinyurl.com/create.php?url='+encodeURIComponent%28location.href%29%29)                 
   - [SimilarSite](javascript:location.href='https://www.similarsitesearch.com/search/?URL='+encodeURIComponent%28document.location.href%29+'&src=bmt';)
