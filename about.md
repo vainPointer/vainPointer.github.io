@@ -40,9 +40,14 @@ permalink: /about/
   - [Archive.today](javascript:void%28open%28'http://archive.today/?run=1&url='+encodeURIComponent%28document.location%29%29%29)                          
 
 # 模板
-  - [landslide](/download/templates/landslide.zip) - 用 markdown 做 PPT
   - [XeTeX](/download/templates/XeTeX.zip) - 几个 XeTeX 模板，包括 notes、homework、article
+  - [Beamer](/download/templates/Beamer.zip) - 用 TeX 做 PPT
+  - [landslide](/download/templates/landslide.zip) - 用 markdown 做 PPT
   - [retext](/download/templates/retext.zip) - retext 中使用 MathJax 的方法以及两个 css
+
+# 脚本
+  - [swapKey](/download/scripts/swapKey) - Linux 设置 capslock 为 ctrl
+  - [cmdrc.bat](/download/scripts/cmdrc.bat) - Windows 下的 .bashrc
 
 # 软件集锦
 ## 代码
