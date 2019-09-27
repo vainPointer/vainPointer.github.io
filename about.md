@@ -41,9 +41,11 @@ permalink: /about/
 
 # 模板
   - [XeTeX](/download/templates/XeTeX.zip) - 几个 XeTeX 模板，包括 notes、homework、article
+  - [DND-5e](/download/templates/DND-5e.zip) - DnD 风格的 TeX 书籍模板
   - [Beamer](/download/templates/Beamer.zip) - 用 TeX 做 PPT
   - [landslide](/download/templates/landslide.zip) - 用 markdown 做 PPT
   - [retext](/download/templates/retext.zip) - retext 中使用 MathJax 的方法以及两个 css
+  - [gmp](/download/templates/gmp_template.c) - C 语言大数运算库 gmp 的使用模板
 
 # 脚本
   - [swapKey](/download/scripts/swapKey) - Linux 设置 capslock 为 ctrl
