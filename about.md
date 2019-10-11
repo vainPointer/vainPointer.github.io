@@ -51,6 +51,7 @@ permalink: /about/
 # 脚本
   - [swapKey](/download/scripts/swapKey) - Linux 设置 capslock 为 ctrl
   - [cmdrc.bat](/download/scripts/cmdrc.bat) - Windows 下的 .bashrc
+  - [powershellrc.ps1](/download/scripts/powershellrc.ps1) - Powershell 的自定义配置文件
 
 # 软件集锦
 ## 代码
