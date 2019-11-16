@@ -13,12 +13,12 @@ permalink: /about/
 | [pencheat](https://highon.coffee/blog/cheat-sheet/)   | [rosettaCode](http://rosettacode.org/wiki/Rosetta_Code) | [OEIS](http://oeis.org/)                                                              | [Detexify](http://detexify.kirelabs.org/classify.html)         | [Insight](https://www.accesstoinsight.org/)                  | [libgen](http://gen.lib.rus.ec/)                                       | [象形字典](http://www.vividict.com/Default.aspx)     | [历史地图](http://geacron.com/home-zh-hans/)           |
 | [catonmat](https://catonmat.net/)                     | [quantaAlgo](http://quantumalgorithmzoo.org/)           | [MathSci](https://mathscinet.ams.org/mathscinet/freeTools.html?version=2)             | [Formula](https://zh.numberempire.com/latexequationeditor.php) | [Tipiṭaka](https://www.tipitaka.org/)                        | [booksc](https://booksc.org/)                                          | [搜詞尋字](http://words.sinica.edu.tw/sou/sou.html)  | [全历史](https://www.allhistory.com/)                 |
 | [codef00](http://codef00.com/projects)                | [Tutanota](https://www.tutanota.com/)                   | [LMFDB](http://www.lmfdb.org/)                                                        | [Table](https://tableconvert.com/)                             | [Tipiṭaka](https://epalitipitaka.appspot.com/canon)          | [booksee](http://en.booksee.org/)                                      | [易笔字](http://www.yibizi.com/)                    | [Unicode](https://www.ziti163.com/uni/index.shtml) |
-| [caiorss](https://caiorss.github.io/C-Cpp-Notes/)     | [10minMail](https://10minutemail.com/)                  | [MathTool](http://zh.numberempire.com/primenumbers.php)                               | [TeXGIF](http://latex.codecogs.com/gif.latex?)                 | [大毘盧寺](http://abtemple.org/index.php)                        | [ITebooks](https://it-ebooks.info/)                                    | [民族语言](http://www.mzywfy.org.cn/)                |                                                    |
+| [caiorss](https://caiorss.github.io/C-Cpp-Notes/)     | [10minMail](https://10minutemail.com/)                  | [MathTool](http://zh.numberempire.com/primenumbers.php)                               | [TeXGIF](http://latex.codecogs.com/gif.latex?)                 | [大毘盧寺](http://abtemple.org/index.php)                        | [ITebooks](https://it-ebooks.info/)                                    | [民族语言](http://www.mzywfy.org.cn/)                | [All2A](http://www.alltoall.net/)              |
 | [Chappell](https://www.geoffchappell.com/)            | [SmallPdf](https://smallpdf.com/cn)                     | [changhai](https://www.changhai.org/articles/science/mathematics/riemann_hypothesis/) | [dblp](https://dblp.uni-trier.de/)                             | [佛學圖書館](http://buddhism.lib.ntu.edu.tw/DLMBS/index.jsp)      | [ebookee](https://ebookee.org/)                                        | [同义词](http://www.ximizi.com/Tongyici_Cidian.php) |                                                    |
 | [Scaruffi](https://www.scaruffi.com/)                 | [Pwned?](https://haveibeenpwned.com/)                   | [Oded](http://www.wisdom.weizmann.ac.il/~/oded/)                                      | [JSTOR](https://www.jstor.org/)                                | [漢文大藏經](http://tripitaka.cbeta.org/mobile/index.php?index=N) | [Gutenberg](https://www.gutenberg.org/)                                | [格律检测](http://www.52shici.com/gl.php)            |                                                    |
 | [GooArt](https://artsandculture.google.com/)          | [send](https://send.firefox.com/)                       | [Boneh](http://crypto.stanford.edu/~dabo/)                                            | [Sci-Hub](http://sci-hub.tw/)                                  | [达照法师](http://www.shidazhao.com/)                            | [CSE](https://cse.google.com/cse?cx=001639227550064093264:dznewka3cca) | [Etymology](http://www.etymonline.com/)          |                                                    |
 | [Feed43](https://feed43.com/)                         | [paste](https://paste.ubuntu.com/)                      | [Katz](http://www.cs.umd.edu/~jkatz/)                                                 | [font2u](https://fonts2u.com/)                                 |                                                              | [Jiumo](https://www.jiumodiary.com/?tdsourcetag=s_pctim_aiomsg)        | [NiftyWord](https://www.niftyword.com/)          |                                                    |
-|                                                       |                                                         |                                                                                       |                                                                |                                                              | [panghub](http://panghubook.cn/)                                       | [Wiktionary](https://en.wiktionary.org/)         |                                                    |
+|                                                       | [pdf24](https://tools.pdf24.org/zh/)                    |                                                                                       |                                                                |                                                              | [panghub](http://panghubook.cn/)                                       | [Wiktionary](https://en.wiktionary.org/)         |                                                    |
 | **Academic**                                          | **Conf**                                                | **Team**                                                                              | **Game**                                                       | **URLs**                                                     | [51nazhun](https://kindle.51nazhun.pub/)                               | [Latin](http://archives.nd.edu/words.html)       |                                                    |
 | [Andri](https://syssec.mistakenot.net/)               | [DEFCON](https://media.defcon.org/DEF%21CON%2027/)      | [SSLab](https://gts3.org/)                                                            | [pwnable.kr](http://pwnable.kr/play.php)                       | [MathUrls](https://mathurls.com/)                            | [skebooks](https://www.skebooks.com/)                                  | [Glossa](http://athirdway.com/glossa/)           |                                                    |
 | [Appel](https://www.cs.princeton.edu/~appel/)         | [hackerone](https://www.hackerone.com/)                 | [GoSSiP](https://loccs.sjtu.edu.cn/wiki/doku.php)                                     | [pwnable.tw](https://pwnable.tw/)                              | [DevUrls](https://devurls.com/)                              |                                                                        | [linggle](http://linggle.com/)                   |                                                    |
@@ -58,15 +58,12 @@ permalink: /about/
   - [fixedsysexcelsior](/download/FSEX300.ttf) - 最经典的编程字体
   - [dependency walker](http://www.dependencywalker.com/) - 依赖检查
   - [wing](https://wingware.com/downloads/wing-personal) - Python IDE
-  - [atom](https://atom.io/) - Github Editor
   - [看雪工具](https://tools.pediy.com/)
   - [PyQuil](https://github.com/rigetti/pyquil) - Python 量子计算库([文档](https://pyquil.readthedocs.io/en/latest/start.html))
 
 ## 文档
   - [PDF Xchange](https://pdf-xchange.eu/)
   - [Typora](https://www.typora.io/) - Markdown 编辑器
-  - [EmEditor](https://www.emeditor.com/download/) - 多功能文本编辑器
-  - [Inkscape](https://inkscape.org/) - 矢量图编辑器
 
 ## 网络
   - [hexchat](https://hexchat.github.io/downloads.html) - IRC 工具
@@ -76,7 +73,6 @@ permalink: /about/
 
 ## 辅助
   - [CyberChef](/download/CyberChef.htm) - 编码解码
-  - [flux](https://justgetflux.com/) - 调整屏幕颜色
   - [Etymology](/download/Etymology.chm) - 词源词典
 
 ## Linux
@@ -89,7 +85,6 @@ permalink: /about/
   - doxygen + graphviz - 代码阅读
 
 ## macOS
-  - [Aquamacs](http://aquamacs.org/) - 为 macOS 设计的 emacs 编辑器
   - [coderunner](https://coderunnerapp.com/) - 任意代码执行
   - reeder - RSS 阅读器
   - textual - IRC 工具
@@ -97,7 +92,6 @@ permalink: /about/
 
 
 # 警句
-  - 死生有命，富贵在天，但行好事，莫问前程。
   - Knowing is not enough; We must apple. Willing is not enough; We must do。
   - 纸上得来终觉浅，绝知此事要躬行。
 
