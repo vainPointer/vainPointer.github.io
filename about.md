@@ -32,6 +32,7 @@ permalink: /about/
 
 # CheatSheets
 
+- [regexp](/download/cheatsheets/regexp.pdf)
 - [sed](/download/cheatsheets/sed.pdf)
 
 # 模板
