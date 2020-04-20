@@ -30,7 +30,12 @@ permalink: /about/
 | [Katz](http://www.cs.umd.edu/~jkatz/)                        | [POC](http://powerofcommunity.net/)                          | [Brilliant](https://brilliant.org/courses/#recent)       | [otw](http://overthewire.org/wargames/)        |                                                            | [qAlgo](http://quantumalgorithmzoo.org/)                     |                                                     |                                                              |
 | [Hinton](https://www.cs.toronto.edu/~hinton/)                |                                                              |                                                          |                                                |                                                            |                                                              |                                                     |                                                              |
 
+# CheatSheets
+
+- [sed](/download/cheatsheets/sed.pdf)
+
 # 模板
+
   - [XeTeX](/download/templates/XeTeX.zip) - 几个 XeTeX 模板，包括 notes、homework、article
   - [DND-5e](/download/templates/DND-5e.zip) - DnD 风格的 TeX 书籍模板
   - [cheatsheet](/download/templates/cheatsheet.tex) - 用 TeX 做 CheatSheet 
