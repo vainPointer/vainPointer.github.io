@@ -94,5 +94,5 @@ int main(int argc, char *argv[]) {
 
 ## 三、参考资料
 
-- [https://www.ibm.com/developerworks/cn/linux/l-inotifynew/index.html](https://www.ibm.com/developerworks/cn/linux/l-inotifynew/index.html)
+- https://www.ibm.com/developerworks/cn/linux/l-inotifynew/index.html
 
