@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Monitering: hotplug, udev and inotify"
+title:  "Monitoring: hotplug, udev and inotify"
 subtitle: "Linux 系统监视 API"
 date:   2020-05-30 14:48:43 +0800
 categories: [geek]
