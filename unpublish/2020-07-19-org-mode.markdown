@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Try spacemacs"
+subtitle: "Emacs 配置初探"
+date:   2020-07-19 23:46:51 +0800
+categories: [geek]
+---
+
+# spacemacs
+
+## 安装
+
+```shell
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+git clone -b develop https://github.com/syl20bnr/spacemacs ~/.emacs.d
+```
+
+## 改镜像源
+
+```shell
+vim .emacs.d/core/templates/.spacemacs.template
+```
+
+在 dotspacemacs/user-init() 中添加
+
+```lisp
+(setq configuration-layer--elpa-archives
+'(("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+  ("org-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
+  ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
+```
+
+启动后配置会加载到 .spacemacs 中
+
+## exec-path-from-shell
+
+解决方案：https://en.dlyang.me/spacemacs-start-warning-resolve/
+
+## org-latex
+
+配置文件一般写在 .spacemacs 的 dotspacemacs/user-config() 函数下，例如
+
+```lisp
+(setq org-latex-pdf-process
+      '("xelatex -interaction nonstopmode -output-directory %o %f" 
+        "biber %b" 
+        "xelatex -interaction nonstopmode -output-directory %o %f" 
+        "xelatex -interaction nonstopmode -output-directory %o %f"))
+```
+
+## org-beamer
+
+[org 制作 LaTeX beamer 幻灯片](https://www.lengyueyang.com/post/tools/org_mode/使用org-mode做幻灯片)
+
